@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.jobportal:job-portal >----------------------
+[INFO] Building Job Portal Management System 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.4:run (default-cli) > test-compile @ job-portal >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ job-portal ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 14 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ job-portal ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 24 source files with javac [debug release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ job-portal ---
+[INFO] skip non existing resourceDirectory C:\Users\jishn\OneDrive\Desktop\project fs\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ job-portal ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.4:run (default-cli) < test-compile @ job-portal <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.4:run (default-cli) @ job-portal ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2026-04-27T23:40:40.861+05:30  INFO 2138548 --- [job-portal] [           main] com.jobportal.JobPortalApplication       : Starting JobPortalApplication using Java 21.0.11 with PID 2138548 (C:\Users\jishn\OneDrive\Desktop\project fs\target\classes started by jishn in C:\Users\jishn\OneDrive\Desktop\project fs)
+2026-04-27T23:40:40.865+05:30  INFO 2138548 --- [job-portal] [           main] com.jobportal.JobPortalApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-27T23:40:42.394+05:30  INFO 2138548 --- [job-portal] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-27T23:40:42.535+05:30  INFO 2138548 --- [job-portal] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 3 JPA repository interfaces.
+2026-04-27T23:40:43.721+05:30  INFO 2138548 --- [job-portal] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-27T23:40:43.744+05:30  INFO 2138548 --- [job-portal] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-27T23:40:43.745+05:30  INFO 2138548 --- [job-portal] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
